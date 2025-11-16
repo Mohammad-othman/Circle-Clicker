@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click the Circle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div class="score-container">
+                <h2>Score: <span id="score">0</span></h2>
+            </div>
+            <div class="timer-container">
+                <h2>Time: <span id="timer">30</span>s</h2>
+            </div>
+        </div>
+        
+        <div id="game-area">
+            <div id="circle"></div>
+        </div>
+        
+        <div id="game-over" class="hidden">
+            <h1>Game Over!</h1>
+            <p>Final Score: <span id="final-score">0</span></p>
+            <button id="restart-btn">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
